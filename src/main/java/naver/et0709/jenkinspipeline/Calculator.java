@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class Calculator {
     public int sum(int a, int b){
-        System.out.println("sum");
+        System.out.println("Hello sum");
         return a + b;
     }
 }
