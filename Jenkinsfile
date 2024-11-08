@@ -34,7 +34,7 @@ pipeline {
        }
        stage("Docker Build"){
            steps{
-               sh "docker build -t jenkinspipeline ."
+               sh "docker build -t CodePipeline ."
            }
        }
     }
